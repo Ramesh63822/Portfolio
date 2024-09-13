@@ -444,6 +444,15 @@ section{
     width: 85%;
 }
 
+.progress-line.springBoot span{
+    width: 80%;
+}
+
+.progress-line.mysql span{
+    width: 50%;
+}
+
+
 .progress-line.react span{
     width: 50%;
 }
@@ -463,6 +472,14 @@ section{
     right: -20px;
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
+}
+
+.progress-line.mysql span::after{
+    content: "50%";
+}
+
+.progress-line.springBoot span::after{
+    content: "80%";
 }
 
 .progress-line.html span::after{
